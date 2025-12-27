@@ -99,34 +99,4 @@ enum AppConstants {
         static let networkMonitor = "NetworkMonitor"
     }
     
-    // MARK: - Error Messages (Console)
-    enum ConsoleMessages {
-        static let imageNotFound = "⚠️ Image not found"
-        static let alreadyFetching = "⚠️ Already fetching, skipping..."
-        static let allProductsLoaded = "✅ All products loaded"
-        static let noMorePages = "✅ No more pages to load"
-        static let loadingComplete = "✅ Loading complete"
-        static let tableViewReloaded = "📊 TableView reloaded"
-        static let categorySelected = "📌 Category selected"
-        static let loadingProducts = "🎯 Loading products for category"
-        static let fetchingCategory = "📡 Fetching category"
-        static let loadedProducts = "✅ Loaded products"
-        static let networkError = "❌ Network Error"
-        static let unknownError = "❌ Unknown Error"
-        static let retryingRequest = "🔄 Retrying last request"
-        static let loadingNextPage = "📄 Loading next page"
-        static let loadingMoreProducts = "📄 Loading more products"
-        static let loading = "🔄 Loading..."
-        static let networkReconnected = "🌐 Network reconnected"
-        static let networkDisconnected = "📵 Network disconnected"
-        static let networkMonitorStarted = "🔍 NetworkMonitor started"
-        static let initialNetworkState = "📡 Initial network state"
-        static let networkStatusChanged = "📡 Network status changed"
-        static let notificationReceived = "🔔 Network status notification received"
-        static let missingNotificationData = "⚠️ Missing notification data"
-        static let connectionState = "📊 Connection state"
-        static let skippingRetry = "⚠️ Skipping retry"
-        static let startingRetry = "🔄 Starting retry after delay..."
-        static let errorHandlingSetup = "✅ Error handling and network monitoring setup complete"
-    }
 }
